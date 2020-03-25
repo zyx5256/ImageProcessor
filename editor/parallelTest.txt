@@ -1,0 +1,33 @@
+echo "----------------------------test file 1----------------------------"
+echo "p=1"
+time(go run editor.go -p=1 < file1/file_1.txt)
+echo "p=2"
+time(go run editor.go -p=2 < file1/file_1.txt)
+echo "p=4"
+time(go run editor.go -p=4 < file1/file_1.txt)
+echo "p=6"
+time(go run editor.go -p=6 < file1/file_1.txt)
+echo "p=8"
+time(go run editor.go -p=8 < file1/file_1.txt)
+echo "----------------------------test file 2----------------------------"
+echo "p=1"
+time(go run editor.go -p=1 < file2/file_2.txt)
+echo "p=2"
+time(go run editor.go -p=2 < file2/file_2.txt)
+echo "p=4"
+time(go run editor.go -p=4 < file2/file_2.txt)
+echo "p=6"
+time(go run editor.go -p=6 < file2/file_2.txt)
+echo "p=8"
+time(go run editor.go -p=8 < file2/file_2.txt)
+echo "----------------------------test file 3----------------------------"
+echo "p=1"
+time(go run editor.go -p=1 < file3/file_3.txt)
+echo "p=2"
+time(go run editor.go -p=2 < file3/file_3.txt)
+echo "p=4"
+time(go run editor.go -p=4 < file3/file_3.txt)
+echo "p=6"
+time(go run editor.go -p=6 < file3/file_3.txt)
+echo "p=8"
+time(go run editor.go -p=8 < file3/file_3.txt)

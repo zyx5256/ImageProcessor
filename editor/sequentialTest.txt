@@ -1,0 +1,7 @@
+echo "----------------------------test sequential----------------------------"
+echo "file 1"
+time(go run editor.go < file1/file_1.txt)
+echo "file 2"
+time(go run editor.go < file2/file_2.txt)
+echo "file 3"
+time(go run editor.go < file3/file_3.txt)
